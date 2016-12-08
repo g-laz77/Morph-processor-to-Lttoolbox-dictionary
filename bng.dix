@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!-- -*-nxml-*- -->
+<dictionary>  <alphabet>aAiIuUqeEoOkKgGMcCjJtTdTNwWxXnFpPbBmyrlbSRsh</alphabet>
+	<sdefs>
+			<sdef n="n"/> 			<!-- noun -->
+			<sdef n="sg"/>			<!-- singular -->
+			<sdef n="pl"/>			<!-- plural -->
+			<sdef n="m"/>			<!-- male -->
+			<sdef n="f"/>			<!-- female -->
+			<sdef n="dir"/>			<!-- direct -->
+			<sdef n="obl"/>			<!-- oblique -->
+			<sdef n="np"/> 			<!-- proper nouns -->
+  	</sdefs>
+	  	<pardef n="ladak/A_n">
+			<e><p><l>A</l><r>A<s n="n"/><s n="sg"/><s n="dir"/></r></p></e>
+			<e><p><l>e</l><r>A<s n="n"/><s n="sg"/><s n="obl"/></r></p></e>
+			<e><p><l>e</l><r>A<s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
+			<e><p><l>e</l><r>A<s n="n"/><s n="pl"/><s n="dir"/></r></p></e>
+			<e><p><l>oM</l><r>A<s n="n"/><s n="pl"/><s n="obl"/></r></p></e>
+			<e><p><l>o</l><r>A<s n="n"/><s n="pl"/><s n="voc"/></r></p> </e>
+		</pardef>
+		<pardef n="rAjA_n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="dir"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="obl"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="voc"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="pl"/><s n="dir"/></r></p></e>
+			<e><p><l>oM</l><r><s n="n"/><s n="pl"/><s n="obl"/></r></p></e>
+			<e><p><l>o</l><r><s n="n"/><s n="pl"/><s n="voc"/></r></p></e>
+		</pardef>
+		<pardef n="bhaSaa_n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="dir"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="obl"/></r></p></e>
+			<e><p><l>eM</l><r><s n="n"/><s n="pl"/><s n="dir"/></r></p></e>
+			<e><p><l>oM</l><r><s n="n"/><s n="pl"/><s n="obl"/></r></p></e>
+		</pardef>
+		<pardef n="kuras/I_n">
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="dir"/></r></p></e>
+			<e><p><l></l><r><s n="n"/><s n="sg"/><s n="obl"/></r></p></e>
+			<e><p><l>iyoN</l><r>I<s n="n"/><s n="pl"/><s n="dir"/></r></p></e>
+			<e><p><l>iyoM</l><r>I<s n="n"/><s n="pl"/><s n="obl"/></r></p></e>
+		</pardef>
+
+  	<section id="main" type="standard">
+	<!-- nouns -->
+		<e lm="ladakA"><i>ladakA</i><par n="ladak/A_n"/></e>
+		<e lm="rAjA"><i>rAjA</i><par n="rAjA_n"/></e>
+		<e lm="GodA"><i>GodA</i><par n="ladak/A_n"/></e>
+		<e lm="bhaSaa"><i>bhaSaa</i><par n="bhaSaa_n"/></e>
+		<e lm="kurasI"><i>kurasI</i><par n="kuras/I_n"/></e>
+<e lm="kapadA"><i>"ladak/A_n"</i><par n="ladak/A_n"/></e><e lm="kapadA"><i>"rAjA_n"</i><par n="rAjA_n"/></e><e lm="kapadA"><i>"ladak/A_n"</i><par n="ladak/A_n"/></e><e lm="kapadA"><i>"rAjA_n"</i><par n="rAjA_n"/></e></section>
+</dictionary>
+
